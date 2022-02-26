@@ -1,0 +1,103 @@
+/bin/sh: line 1: /home/lilith/.screenlayout/screen.sh: No such file or directory
+/bin/sh: line 1: xss-lock: command not found
+/bin/sh: line 1: –no-startup-id: command not found
+/bin/sh: line 1: bettaerlockscreen: command not found
+[ 02/26/2022 11:27:57.676 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by spotify)
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.325: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.326: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.326: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.326: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.326: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.326: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.358: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.386: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:03.427: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:03.428: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.376: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.376: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.376: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:437): Gtk-WARNING **: 11:28:04.377: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.400: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.400: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.400: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.401: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:449): Gtk-WARNING **: 11:28:04.402: Unable to locate theme engine in module_path: "murrine",
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+/proc/self/exe: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /proc/self/exe)
+[057 11:28:57.128167] Ignoring invalid config line: url_excluded_characters
+[057 11:30:53.402883] Ignoring invalid config line: url_excluded_characters
+[057 11:31:36.796938] Ignoring invalid config line: url_excluded_characters
+[057 11:32:00.419259] Ignoring invalid config line: url_excluded_characters
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined

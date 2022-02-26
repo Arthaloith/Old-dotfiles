@@ -1,0 +1,22 @@
+Validating found git in: git
+Using git 2.34.1 from git
+> git rev-parse --git-dir
+Open repository: /home/lilith/okayu
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/onigiri refs/remotes/onigiri
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/lilith/okayu/.git/refs/remotes/origin/onigiri', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.config/i3/config
+> git ls-files --stage -- /home/lilith/okayu/.config/i3/config
+> git cat-file -s 248dd0e3785b5790c2ab88bd4274e808f2bf6006
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/onigiri refs/remotes/onigiri
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/lilith/okayu/.git/refs/remotes/origin/onigiri', is most likely packed.
+> git config --get commit.template

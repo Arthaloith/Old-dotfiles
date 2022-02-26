@@ -1,0 +1,6 @@
+2021/10/14-16:21:06.105 5f61 Creating DB /home/lilith/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb since it was missing.
+2021/10/14-16:21:06.114 5f61 Reusing MANIFEST /home/lilith/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/10/14-16:21:40.094 5d45 Level-0 table #5: started
+2021/10/14-16:21:40.095 5d45 Level-0 table #5: 405 bytes OK
+2021/10/14-16:21:40.096 5d45 Delete type=0 #3
+2021/10/14-16:21:40.096 5d45 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

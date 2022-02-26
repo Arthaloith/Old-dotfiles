@@ -1,0 +1,161 @@
+/bin/sh: line 1: /home/lilith/.screenlayout/screen.sh: No such file or directory
+/bin/sh: line 1: xss-lock: command not found
+/bin/sh: line 1: –no-startup-id: command not found
+/bin/sh: line 1: bettaerlockscreen: command not found
+[ 02/26/2022 11:41:03.065 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by spotify)
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.412: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.534: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.577: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:11.591: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:11.591: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.659: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.659: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.659: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.660: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:456): Gtk-WARNING **: 11:41:12.661: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.690: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.691: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.691: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.691: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:468): Gtk-WARNING **: 11:41:12.691: Unable to locate theme engine in module_path: "murrine",
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+/proc/self/exe: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /proc/self/exe)
+[057 12:03:38.875049] Ignoring invalid config line: url_excluded_characters
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+[057 12:07:03.732090] Ignoring invalid config line: url_excluded_characters
+
+(thunar:93634): thunar-WARNING **: 12:07:04.163: Content type loading failed for .zsh_history.LOCK: Error when getting information for file “/home/lilith/.zsh_history.LOCK”: No such file or directory
+[057 12:07:06.615329] Ignoring invalid config line: url_excluded_characters
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(thunar:93634): thunar-WARNING **: 12:07:32.047: Content type loading failed for .viminfo.tmp: Error when getting information for file “/home/lilith/.viminfo.tmp”: No such file or directory
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(thunar:93634): thunar-WARNING **: 12:07:49.443: Content type loading failed for .viminfo.tmp: Error when getting information for file “/home/lilith/.viminfo.tmp”: No such file or directory
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+[057 12:08:14.543374] Ignoring invalid config line: url_excluded_characters
+
+(thunar:93634): thunar-WARNING **: 12:08:14.963: Content type loading failed for .zsh_history.LOCK: Error when getting information for file “/home/lilith/.zsh_history.LOCK”: No such file or directory
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+[057 12:12:14.017672] Ignoring invalid config line: url_excluded_characters
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+0100:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0108:fixme:imm:ImeSetActiveContext (0x245880, 1): stub
+0108:fixme:imm:ImmReleaseContext (0001004E, 00245880): stub
+0110:fixme:imm:ImeSetActiveContext (0x258e30, 0): stub
+0110:fixme:imm:ImmReleaseContext (0000000000020030, 0000000000258E30): stub
+[057 12:13:32.883531] Ignoring invalid config line: url_excluded_characters
+
+(thunar:93634): thunar-WARNING **: 12:13:33.279: Content type loading failed for .zsh_history.LOCK: Error when getting information for file “/home/lilith/.zsh_history.LOCK”: No such file or directory
+00fc:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0104:fixme:imm:ImeSetActiveContext (0x2458e0, 1): stub
+0104:fixme:imm:ImmReleaseContext (0001004E, 002458E0): stub
+0084:fixme:imm:ImeSetActiveContext (0x257910, 0): stub
+0084:fixme:imm:ImmReleaseContext (0000000000010020, 0000000000257910): stub
+[057 12:17:44.780250] Ignoring invalid config line: url_excluded_characters
+[057 12:18:48.580084] Ignoring invalid config line: url_excluded_characters
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+[057 12:20:49.884814] Ignoring invalid config line: url_excluded_characters
+[057 12:20:53.076820] Ignoring invalid config line: url_excluded_characters
+[057 12:21:45.238836] Ignoring invalid config line: url_excluded_characters
+
+(thunar:93634): thunar-WARNING **: 12:21:54.252: Content type loading failed for .zsh_history.LOCK: Error when getting information for file “/home/lilith/.zsh_history.LOCK”: No such file or directory
+[057 12:22:03.971127] Ignoring invalid config line: url_excluded_characters
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+(thunar:93634): thunar-WARNING **: 12:28:03.209: Content type loading failed for .zsh_history.LOCK: Error when getting information for file “/home/lilith/.zsh_history.LOCK”: No such file or directory
+ThunarThumbnailCache: failed to call Copy(): Timeout was reached
+ThunarThumbnailCache: failed to call Copy(): Timeout was reached
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null

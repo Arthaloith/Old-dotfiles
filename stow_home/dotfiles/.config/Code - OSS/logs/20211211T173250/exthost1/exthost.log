@@ -1,0 +1,8 @@
+[2021-12-11 17:32:53.029] [exthost] [info] Extension host with pid 73334 started
+[2021-12-11 17:32:53.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-11 17:32:53.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-11 17:32:53.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-11 17:32:53.523] [exthost] [info] Eager extensions activated
+[2021-12-11 17:32:53.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-11 17:33:45.029] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-11 17:33:46.047] [exthost] [info] Extension host with pid 73334 exiting with code 0

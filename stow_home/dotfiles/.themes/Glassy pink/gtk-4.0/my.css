@@ -1,0 +1,990 @@
+
+
+window,popover,.rubberband{border: 2px solid rgba(255,255,255,0.6);
+ 
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: rgba(255,255,255,1);
+
+  }
+
+  window:backdrop,popover:backdrop {
+  border: 2px solid rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,1);
+  
+
+}
+
+.view:selected{
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color:  rgba(222,62,128, 0.3);
+  
+
+  }
+
+selection{
+  background-color:  rgba(222,62,128, 0.9);
+
+}
+
+list separator,menu separator{
+  background-color:rgba(244,103,157,0.9);
+  border-radius: 20px;
+  border: 0px solid rgba(255,255,255,0.6);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23); 
+
+}
+
+/* separator {
+  background-color:rgba(244,103,157,0.9);
+  border-radius: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+separator.vertical{
+
+}
+separator:backdrop {
+  background-color: rgba(51,51,51,0.9);
+
+} */
+
+frame list,scrolledwindow,clamp list,stack notebook,calendar{ 
+    background-color:rgba(244,103,157,0.9);
+   
+    border-radius:20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+ 
+  }
+
+ frame list:backdrop,scrolledwindow:backdrop,clamp list:backdrop,overlay:backdrop,stack notebook:backdrop,calendar:backdrop{ 
+  background-color: rgba(51,51,51,0.9);
+  color:rgba(255,255,255,0.5);
+
+}
+
+list row.activatable {
+   border-radius:20px;
+ 
+  }
+
+list row.activatable:backdrop:hover ,list row.activatable:backdrop:selected {
+  background-color: rgba(51,51,51,0.9);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.6);
+  color:rgba(255,255,255,0.5);
+
+}
+
+list row.activatable:selected {
+  background-color:  rgba(222,62,128, 0.9);
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+  font-weight: bolder;
+
+}
+
+list row.activatable:hover {
+  background-color:rgba(254,154,184,0.9);
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+
+}
+
+
+ .nautilus-window list {
+  background-color:rgba(244,103,157,0.9);
+  border-radius:20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+ 
+}
+
+ .nautilus-window list:backdrop {
+  background-color: rgba(51,51,51,0.9);
+  color:rgba(255,255,255,0.5);
+ 
+}
+
+button ,modelbutton,tab,entry,checkbutton,radiobutton,spinner{
+    background-color:rgba(244,103,157,0.9);
+    border-radius:20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    border: 2px solid rgba(255,255,255,0.6);
+
+  }
+
+label{
+  background-color:rgba(244,103,157,0.9);
+  border-radius:20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  border: 2px solid rgba(255,255,255,0.6);
+
+}
+
+headerbar label{
+  font-weight: bolder;
+
+}
+
+label:backdrop{
+  color:rgba(255,255,255,0.5);
+
+}
+
+headerbar .subtitle {
+  font-size: smaller;
+
+}
+button label,modelbutton label,tab label,entry label,checkbutton label,radiobutton label,spinner label,frame list label,scrolledwindow label,clamp list label,stack notebook label,calendar label,list row.activatable label,menubar label,menu item label,headerbar .subtitle {
+  background-color:transparent;
+  border-radius:0px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0); 
+  border: 0px solid rgba(0,0,0,0);
+
+}
+
+button:backdrop ,modelbutton:backdrop,tab:backdrop,entry:backdrop,checkbutton:backdrop,radiobutton:backdrop{
+  background-color: rgba(51,51,51,0.9);
+  color:rgba(255,255,255,0.5);
+
+}
+
+button:checked ,modelbutton:checked,tab:checked,entry:checked{
+  background-color:  rgba(222,62,128, 0.9);
+  font-weight: bolder;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+
+}
+
+
+button:disabled ,modelbutton:disabled,tab:disabled,entry:disabled{
+  background-color: rgba(145,14,56,0.4);
+  color:rgba(255,255,255,0.5);
+
+}
+
+button:hover ,modelbutton:hover,tab:hover,entry:hover{
+  background-color:  rgba(254,154,184,0.9);
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+
+}
+
+
+headerbar{
+
+}
+
+/*********
+ * Menus *
+ *********/
+ menubar,
+ .menubar {
+   -GtkWidget-window-dragging: true;
+   color: #fff;
+ 
+  }
+ 
+ menubar:backdrop,
+ .menubar:backdrop {
+   color:rgba(255, 255, 255, 0.8);
+ 
+  }
+ 
+ .csd menubar, .csd .menubar {
+   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
+ 
+  }
+ 
+ menubar > item,
+ .menubar > item {
+   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
+   min-height: 20px;
+   border-radius: 20px;
+   color: #fff;
+   background-color:rgba(244,103,157,0.9);
+   border: 2px solid rgba(255,255,255,0.6);
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+ 
+  }
+ 
+ menubar > item:hover,
+ .menubar > item:hover {
+   transition: none;
+   background-color: alpha(currentColor, 0.1);
+   color: #fff;
+   background-color:rgba(254,154,184,0.9);
+ 
+  }
+ 
+ menubar > item:disabled,
+ .menubar > item:disabled {
+  color:rgba(51,51,51,0.9);
+ 
+}
+ 
+ menubar > item label:disabled,
+ .menubar > item label:disabled {
+   color: inherit;
+ 
+  }
+ 
+ .background.popup {
+   background-color: transparent;
+ 
+  }
+ /*  
+ menu,
+ .context-menu {
+   background-color:rgba(244,103,157,0.9);
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+ 
+  }
+ 
+ .csd menu, .csd .context-menu {
+   border-radius: 20px;
+ 
+  }
+ 
+ .csd menu item, .csd .context-menu item {
+   border-radius: 20px;
+ 
+  }
+
+ menu item,
+ .context-menu item {
+   transition: none;
+   min-height: 20px;
+   min-width: 40px;
+   color:#fff;
+   font: initial;
+   text-shadow: none;
+   
+ 
+  }
+ 
+ menu item:hover,
+ .context-menu item:hover {
+   transition: none;
+   background-color:rgba(254,154,184,0.9);
+   box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+ 
+  }
+ 
+ menu item:disabled,
+ .context-menu item:disabled {
+  color:rgba(255,255,255,0.5);
+ 
+}
+ 
+ menu item arrow,
+ .context-menu item arrow {
+   min-height: 16px;
+   min-width: 16px;
+ 
+  }
+ 
+ menu item arrow:dir(ltr),
+ .context-menu item arrow:dir(ltr) {
+   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+ 
+  }
+ 
+ menu item arrow:dir(rtl),
+ .context-menu item arrow:dir(rtl) {
+   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+ 
+  }
+ 
+ menu item label:dir(rtl), menu item label:dir(ltr),
+ .context-menu item label:dir(rtl),
+ .context-menu item label:dir(ltr) {
+   color: inherit;
+ 
+  }
+ 
+ menu > arrow,
+ .context-menu > arrow {
+   min-height: 16px;
+   min-width: 16px;
+   background-color: #FFFFFF;
+   color: rgba(0, 0, 0, 0.6);
+ 
+  }
+ 
+ menu > arrow.top,
+ .context-menu > arrow.top {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+   border-radius: 2px 2px 0 0;
+   -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+ 
+  }
+ 
+ menu > arrow.bottom,
+ .context-menu > arrow.bottom {
+   border-top: 1px solid rgba(0, 0, 0, 0.12);
+   border-radius: 0 0 2px 2px;
+   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+ 
+  }
+ 
+ menu > arrow:hover,
+ .context-menu > arrow:hover {
+   background-image: image(alpha(currentColor, 0.08));
+   color: rgba(0, 0, 0, 0.87);
+ 
+  }
+ 
+ menu > arrow:disabled,
+ .context-menu > arrow:disabled {
+   border-color: transparent;
+   background-color: transparent;
+   color: transparent;
+ 
+  }
+ 
+ menu separator,
+ .context-menu separator {
+ 
+  }
+ 
+ item accelerator {
+   color:#fff;
+ 
+  }
+ 
+ item:disabled accelerator {
+  color:rgba(255, 255, 255, 0.8);
+ 
+}
+  */
+
+
+
+/**************
+ * Scrollbars *
+ **************/
+ scrollbar {
+  transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
+  background-color: #2C2C2C;
+
+}
+
+* {
+  -GtkScrollbar-has-backward-stepper: false;
+  -GtkScrollbar-has-forward-stepper: false;
+
+}
+
+scrollbar.top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+}
+
+scrollbar.bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+}
+
+scrollbar.left {
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+
+}
+
+scrollbar.right {
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+
+}
+
+scrollbar slider {
+  transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
+  min-width: 8px;
+  min-height: 8px;
+  border: 4px solid transparent;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+scrollbar slider:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+scrollbar slider:active {
+  background-color: white;
+
+}
+
+scrollbar slider:disabled {
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+scrollbar.fine-tune slider {
+  min-width: 4px;
+  min-height: 4px;
+
+}
+
+scrollbar.fine-tune.horizontal slider {
+
+}
+
+scrollbar.fine-tune.vertical slider {
+
+}
+
+scrollbar.overlay-indicator:not(.fine-tune) slider {
+  transition-property: background-color, min-height, min-width;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering) {
+  border-color: transparent;
+  background-color: transparent;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
+  min-width: 4px;
+  min-height: 4px;
+  border: 2px solid rgba(44, 44, 44, 0.3);
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
+  min-width: 4px;
+  min-height: 4px;
+  border: 2px solid rgba(44, 44, 44, 0.3);
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -gtk-icon-source: none;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
+  min-width: 24px;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
+  min-width: 8px;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
+  min-height: 24px;
+
+}
+
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
+  min-height: 8px;
+
+}
+
+scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
+  background-color:rgba(244,103,157,0.9);
+
+}
+
+scrollbar.horizontal slider {
+  min-width: 24px;
+
+}
+
+scrollbar.vertical slider {
+  min-height: 24px;
+
+}
+
+scrollbar button {
+  min-width: 16px;
+  min-height: 16px;
+  border-radius: 0;
+
+}
+
+scrollbar.vertical button.down {
+  -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+
+}
+
+scrollbar.vertical button.up {
+  -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+
+}
+
+scrollbar.horizontal button.down {
+  -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+
+}
+
+scrollbar.horizontal button.up {
+  -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+
+}
+
+  switch {
+    background-color: rgba(244,103,157,0.9);
+    border: 2px solid rgba(255, 255, 255,0.6);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+        border-radius: 1.3333333343rem;
+    transition: all 100ms cubic-bezier(0.5, 0, 0.2, 1); 
+  
+  }
+    switch:checked:not(.mode-switch):not(:backdrop) {
+      border: 2px solid rgba(255, 255, 255,0.6);
+      background-color:  rgba(222,62,128, 0.9);
+    
+    }
+      switch:checked:not(.mode-switch):not(:backdrop):disabled {
+        border: 2px solid rgba(255, 255, 255,0.6);
+        background-image: none;
+        background-color: mix (#fff,rgba(222,62,128, 0.9), 0.5);
+       
+      }
+    switch image {
+      color: transparent; 
+    }
+    switch slider {
+      border: 2px solid rgba(255, 255, 255,0.6);
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 99px;
+      min-width: 15px;
+    min-height: 15px;
+    
+  }
+      switch slider:focus {
+        color: #fff;
+        outline-color: alpha(rgba(255, 255, 255, 0.9), 0.3);
+        outline-width: 0.250000001rem;
+        outline-style: solid;
+        -gtk-outline-radius: 99px; 
+      }
+    switch.mode-switch slider {
+      min-height: 1.3333333343rem;
+      min-width: 1.3333333343rem; 
+    }
+    switch:disabled {
+      background-color:rgba(145,14,56,0.4);
+    
+    }
+      switch:disabled slider {
+        background-color: rgba(255, 255, 255, 0.5);
+      
+      }
+  
+
+
+
+
+
+
+      colorchooser colorswatch {
+      }
+        colorchooser colorswatch.top {
+          border-top-width: 1px;
+          border-top-left-radius: 0.250000001rem;
+          border-top-right-radius: 0.250000001rem; 
+        }
+          colorchooser colorswatch.top overlay {
+            border-top-width: 1px;
+            border-top-left-radius: 0.250000001rem;
+            border-top-right-radius: 0.250000001rem; 
+          }
+        colorchooser colorswatch.bottom {
+          border-bottom-width: 1px;
+          border-bottom-left-radius: 0.250000001rem;
+          border-bottom-right-radius: 0.250000001rem; 
+        }
+          colorchooser colorswatch.bottom overlay {
+            border-bottom-width: 1px;
+            border-bottom-left-radius: 0.250000001rem;
+            border-bottom-right-radius: 0.250000001rem; 
+          }
+        colorchooser colorswatch overlay {
+          border: 2px solid rgba(0, 0, 0, 0.2);
+          border-bottom-width: 0;
+          border-top-width: 0;
+        }
+        colorchooser colorswatch.dark overlay {
+          color: white;
+          -gtk-icon-shadow: 0 0.0833333343rem 0.1666666677rem rgba(0, 0, 0, 0.3); 
+        }
+        colorchooser colorswatch.light overlay {
+          color: rgba(0, 0, 0, 0.6);
+          -gtk-icon-shadow: 0 0.0833333343rem 0.0833333343rem rgba(255, 255, 255, 0.2); 
+        }
+      colorchooser grid:nth-child(2) colorswatch,
+      colorchooser box box colorswatch {
+        border-radius: 0.250000001rem; 
+      }
+        colorchooser grid:nth-child(2) colorswatch overlay,
+        colorchooser box box colorswatch overlay {
+          border-radius: 0.250000001rem;
+          border-width: 1px; 
+        }
+/************
+ * GtkScale *
+ ************/
+ scale {
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 20px;
+  
+
+}
+
+scale.horizontal {
+
+}
+
+scale.vertical {
+
+}
+
+scale slider {
+  min-height: 32px;
+  min-width: 32px;
+
+}
+
+scale.fine-tune.horizontal {
+  min-height: 4px;
+
+}
+
+scale.fine-tune.vertical {
+  min-width: 4px;
+
+}
+
+scale.fine-tune slider {
+
+}
+
+scale trough {
+  min-height: 20px;
+  min-width: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 20px;
+  transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
+  outline: none;
+  background-color:rgba(244,103,157,0.9);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+
+
+
+scale highlight {
+  min-height: 20px;
+  min-width: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 20px;
+  transition: background-image 75ms cubic-bezier(0, 0, 0.2, 1);
+  background-color:rgba(222,62,128, 0.9);
+
+}
+
+scale highlight:disabled {
+  background-color:rgba(145,14,56,0.4);
+
+}
+
+scale fill {
+  transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+scale fill:disabled {
+  background-color: transparent;
+
+}
+
+scale slider {
+  transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto, 1000% 1000%;
+  border-radius: 50%;
+  color: rgba(222,62,128, 0.9);
+
+}
+
+scale slider {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+
+scale slider:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+
+
+
+scale marks,
+scale value {
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+scale indicator {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: transparent;
+
+}
+
+scale.horizontal marks.top {
+
+}
+
+scale.horizontal.fine-tune marks.top {
+
+}
+
+scale.horizontal marks.bottom {
+
+}
+
+scale.horizontal.fine-tune marks.bottom {
+
+}
+
+scale.vertical marks.top {
+
+}
+
+scale.vertical.fine-tune marks.top {
+
+}
+
+scale.vertical marks.bottom {
+
+}
+
+scale.vertical.fine-tune marks.bottom {
+
+}
+
+scale.horizontal indicator {
+  min-height: 8px;
+  min-width: 1px;
+
+}
+
+scale.vertical indicator {
+  min-height: 1px;
+  min-width: 8px;
+
+}
+
+
+scale.color {
+  min-height: 0;
+  min-width: 0;
+
+}
+
+scale.color.horizontal {
+
+}
+
+scale.color.horizontal slider:dir(ltr), scale.color.horizontal slider:dir(rtl) {
+
+}
+
+scale.color.vertical:dir(ltr) {
+
+}
+
+scale.color.vertical:dir(ltr) slider {
+
+}
+
+scale.color.vertical:dir(rtl) {
+
+}
+
+scale.color.vertical:dir(rtl) slider {
+
+}
+
+/*****************
+ * Progress bars *
+ *****************/
+progressbar {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: smaller;
+  border-radius: 20px;
+
+}
+
+progressbar.horizontal trough,
+progressbar.horizontal progress {
+  min-height: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+progressbar.vertical trough,
+progressbar.vertical progress {
+  min-width: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+progressbar trough {
+  background-color:rgba(244,103,157,0.9);
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+progressbar progress {
+  border-radius: 20px;
+  background-color: rgba(222,62,128, 0.9);
+
+}
+
+progressbar.osd {
+  min-width: 10px;
+  min-height: 10px;
+  background-color: transparent;
+
+}
+
+progressbar.osd trough {
+  background-color: transparent;
+
+}
+
+progressbar.osd progress {
+  background-color: rgba(222,62,128, 0.9);
+
+}
+
+progressbar trough.empty progress {
+  all: unset;
+
+}
+
+/*************
+ * Level Bar *
+ *************/
+levelbar.horizontal block {
+  min-height: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+
+levelbar.horizontal.discrete block {
+  min-width: 36px;
+
+}
+
+levelbar.horizontal.discrete block:not(:last-child) {
+
+}
+
+levelbar.vertical block {
+  border-radius: 20px;
+  min-width: 20px;
+  border: 2px solid rgba(255,255,255,0.6);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+
+}
+
+levelbar.vertical.discrete block {
+  min-height: 36px;
+
+}
+
+levelbar.vertical.discrete block:not(:last-child) {
+
+}
+
+levelbar trough {
+  border-radius: 20px;
+
+}
+
+levelbar block.low {
+  background-color: #FDD633;
+
+}
+
+levelbar block.high, levelbar block:not(.empty) {
+  background-color: rgba(222,62,128, 0.9);
+
+}
+
+levelbar block.full {
+  background-color: #81C995;
+
+}
+
+levelbar block.empty {
+  background-color:rgba(244,103,157,0.9);
+
+}
+
+/****************
+ * Print dialog *
+*****************/
+printdialog paper {
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background-color: #2C2C2C;
+  color: white;
+
+}
+
+printdialog .dialog-action-box {
+
+}
+
+
+
+
+/**
+ * Spinner Animation
+ */
+ @keyframes spin {
+  to {
+    -gtk-icon-transform: rotate(1turn);
+  
+  }
+
+}
+spinner {
+  opacity: 0;
+  color: white;
+  -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
+  transition: opacity 300ms cubic-bezier(0, 0, 0.2, 1);
+  animation: spin 1s linear infinite;
+
+}
+spinner:checked {
+  opacity: 1;
+
+}
+spinner:disabled {
+  color: rgba(0, 0, 0, 0.26);
+
+}
+

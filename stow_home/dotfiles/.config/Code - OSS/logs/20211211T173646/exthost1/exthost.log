@@ -1,0 +1,6 @@
+[2021-12-11 17:36:49.323] [exthost] [info] Extension host with pid 73807 started
+[2021-12-11 17:36:49.561] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-11 17:36:49.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-11 17:36:49.758] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-11 17:36:49.767] [exthost] [info] Eager extensions activated
+[2021-12-11 17:36:49.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
