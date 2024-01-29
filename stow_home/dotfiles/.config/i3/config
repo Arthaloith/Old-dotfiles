@@ -304,10 +304,14 @@ exec_always spotify
 
 #take a screenshot
 bindsym Print exec flameshot screen -p $HOME/Pictures
-bindsym $mod+Print exec flameshot gui -p $HOME/Pictures
+bindsym $mod+Print exec flameshot gui
 
 
 #set bg
 #exec_always feh --bg-scale /home/lilith/wallpaper/nya.png
 exec_always nitrogen --set-scaled /home/lilith/wallpaper/nya.png
-exec_always bettaerlockscreen -u /home/lilith/wallpaper/nya.png
+exec_always betterlockscreen -u ~/wallpaper/nya.png
+
+#brightness control
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
